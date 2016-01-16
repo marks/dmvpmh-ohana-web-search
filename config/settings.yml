@@ -66,29 +66,29 @@ feedback_email:
 #     - text for link 2
 homepage_links:
   general:
-    Government Assistance:
-      - Health Insurance
-      - Medicare
-      - SFMNP (Food vouchers for seniors)
-      - SNAP (Food Stamps)
-      - 'WIC (Women, Infants, & Children)'
+    Outpatient:
+      - Therapy
+      - Group Therapy
 
-    Children, Teens, & Families:
-      - Abuse Prevention
-      - Child Care
-      - Counseling
-      - Mentoring Programs
-      - Youth Development
+    Community:
+      - Support Group
+      - Peer Support
 
-  emergency:
-    Emergency:
-      - Psychiatric Emergency
-      - Emergency Food
-      - Emergency Shelter
+    Inpatient:
+      - Rehab
+      - ABC
+      - XYZ
 
-    Reporting:
-      - Domestic Violence
-      - Child Abuse
+
+  # emergency:
+  #   Emergency:
+  #     - Psychiatric Emergency
+  #     - Emergency Food
+  #     - Emergency Shelter
+
+  #   Reporting:
+  #     - Domestic Violence
+  #     - Child Abuse
 
 ####################
 #
