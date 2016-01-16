@@ -22,16 +22,15 @@
 en:
   branding:
     description: >
-      Retrieve detailed information about the services available
-      in %{location}.
-    header: 'Find community services in %{location}'
-    location: 'San Mateo County'
+      Our mission is to develop, disseminate, and maintain a comprehensive and current regional directory of specialized mental health providers, support groups, advocacy organizations, and other relevant clinical resources pertaining to perinatal mental health. This directory will assist providers, patients, and their families with obtaining specialized mental health evaluation and treatment during pregnancy and postpartum.
+    header: 'Find perinatal mental health (PMG) resources in DC/MD/VA'
+    location: 'DMV PMH'
 
   buttons:
     clear_search_fields: 'Clear search fields'
     during_geolocation: 'Please wait...'
     homepage_search: 'Search'
-    services_near_me: 'Services near me'
+    services_near_me: 'Resources near me'
     update_search_results: 'Update search results'
 
   date:
