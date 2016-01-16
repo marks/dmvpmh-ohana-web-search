@@ -30,7 +30,7 @@ admin_site: https://ohana-api-demo.herokuapp.com/admin
 # otherwise you won't receive any feedback emails.
 feedback_email:
   to:
-    - ohanapi@codeforamerica.org
+    - dmv.pmh.resourceguide@gmail.com
 
 ##########################
 #
@@ -256,7 +256,7 @@ site_logo: app_logo.png
 # to the end of the page title. For example, if you were viewing the page for
 # a location called "Health Insurance TeleCenter", the browser would display
 # "Health Insurance TeleCenter | Ohana Web Search" as the page title.
-site_title: Ohana Web Search
+site_title: DMV Perinatal Mental Health (PMH) Resource Guide
 
 ###########################
 #
