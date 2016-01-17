@@ -6,18 +6,25 @@
     / %p
     /   = link_to t('views.feedback.issue_link'), t('views.feedback.issue_link_url'), target: '_blank'
 
-    %section.feedback-form
-      %p
-        %label{ for: 'comment' }
-          = t('views.feedback.submit_comment_label')
-        %textarea.comment{ name: 'comment', placeholder: 'enter your comment, question, etc.', rows: '4', required: '' }
-      %p
-        %label{ for: 'email' }
-          Email:
-        %input.email{ name: 'email', type: 'email', placeholder: 'your email address (optional)', pattern: '/.+@.+\..+/i' }
-      %p
-        %button.button-feedback-send{ type: 'submit', disabled: 'disabled' }
-          Send!
+    %p
+      Please email us if you have any questions, concerns or feedback concerning the DMV PMH Resource Guide at: 
+
+      %strong
+        %a{:href=> "mailto:dmv.pmh.resourceguide@gmail.com"}
+          dmv.pmh.resourceguide@gmail.com
+          
+    / %section.feedback-form
+    /   %p
+    /     %label{ for: 'comment' }
+    /       = t('views.feedback.submit_comment_label')
+    /     %textarea.comment{ name: 'comment', placeholder: 'enter your comment, question, etc.', rows: '4', required: '' }
+    /   %p
+    /     %label{ for: 'email' }
+    /       Email:
+    /     %input.email{ name: 'email', type: 'email', placeholder: 'your email address (optional)', pattern: '/.+@.+\..+/i' }
+    /   %p
+    /     %button.button-feedback-send{ type: 'submit', disabled: 'disabled' }
+    /       Send!
 
     %noscript
       -# Hides ajax-enabled feedback form when JavaScript is disabled.
