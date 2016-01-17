@@ -66,18 +66,24 @@ feedback_email:
 #     - text for link 2
 homepage_links:
   general:
-    Outpatient:
-      - Therapy
-      - Group Therapy
 
+    Programs:
+      - Outpatient
+      - Inpatient
+    Providers:
+      - DC
+      - MD
+      - VA
+      - Online
     Community:
-      - Support Group
-      - Peer Support
-
-    Inpatient:
-      - Rehab
-      - ABC
-      - XYZ
+      - Support Groups
+    Resources:
+      - Advocacy
+      - Education 
+    Immediate Help:
+      - Hotline
+      - Crisis Text Line
+      - Warmline
 
 
   # emergency:
